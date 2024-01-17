@@ -1,0 +1,58 @@
+import styles from "./About.module.scss";
+import profile from "../../img/png/profile-pic.png";
+import cv_icon from "../../img/svg/icone_cv.svg";
+import signature from "../../img/svg/signature.svg";
+import cv from "../../img/pdf/CV - Yosr Taieb - FR.pdf";
+import { VscGithubAlt } from "react-icons/vsc";
+import { CiLinkedin } from "react-icons/ci";
+import { Link } from "react-router-dom";
+
+function About() {
+  return (
+    <section className={styles.home} id="Accueil">
+      <div className={styles.home__container}>
+        <div className={styles.home__card}>
+          {/* <h1 className={styles.home__title}>Bonjour, Yosr TAIEB</h1> */}
+          <div className={styles.home__logo}>
+            <img src={signature} alt="signature Yosr Taieb" />
+          </div>
+          <h2 className={styles.home__subtitle}>Front-End développeuse</h2>
+          <p className={styles.home__description}>
+            En juin 2021, j'ai saisi l'opportunité de me réorienter
+            professionnellement vers le développement web. Cette transition a
+            été suivie d'une formation intensive de 5 mois, complétée par un
+            stage de 6 mois. Au cours de cette expérience, j'ai consolidé mes
+            compétences en programmation, notamment dans les langages HTML, CSS
+            et Javascript. Forte de mes expériences professionnelles
+            antérieures, j'ai développé une capacité à respecter des délais
+            serrés tout en maintenant une hiérarchie efficace dans mon travail.
+            Rigoureuse et capable de travailler sous pression, je suis désireuse
+            de rejoindre une équipe spécialisée en informatique pour mettre en
+            œuvre mes compétences et contribuer au succès des projets.
+          </p>
+
+          <Link to="/Contact">
+            <button className={styles.home__btn}>Contactez-moi</button>
+          </Link>
+        </div>
+        <div className={styles.home__img}>
+          <img src={profile} alt="photo de profil" />
+        </div>
+        <div className={styles.home__socialNetwork}>
+          <a href="https://github.com/YosrTaieb" target="_blank">
+            <VscGithubAlt />
+          </a>
+
+          <a href="https://www.linkedin.com/in/yosr-taieb-ytb/" target="_blank">
+            <CiLinkedin />
+          </a>
+          <a href={cv} target="_blank">
+            <img src={cv_icon} alt="icone de cv" />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default About;

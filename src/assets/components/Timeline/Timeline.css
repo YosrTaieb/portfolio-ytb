@@ -1,0 +1,48 @@
+.hHPwLT{
+  background: #303030 !important;
+}
+
+.my-title{
+  color: #f6eeea !important;
+  background-color: #cdbab1 !important;
+}
+
+.timeline-circle {
+  background: #303030 !important;
+} 
+
+.JEmHy:not(.using-icon).active {
+  border: 3px solid #303030 !important;
+  background-color: #cdbab1 !important;
+}
+
+.my-card{
+  background-color: #cdbab1 !important;
+  padding: 15px;
+  border-radius: 15px !important;
+}
+
+.my-card-title{
+  color: #303030 !important;
+  margin-bottom: 5px !important;
+}
+
+.my-card-subtitle{
+  color: #303030 !important;
+  opacity: 0.7;
+
+}
+
+.my-card-text{
+  color: #fff !important;
+  margin: 0 0 0 2px !important;
+}
+
+.timelineContent p{
+  color: #fff;
+
+}
+
+.ggYteh{
+  background-color: #303030 !important;
+}

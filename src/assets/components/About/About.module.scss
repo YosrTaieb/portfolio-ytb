@@ -1,0 +1,136 @@
+// #region HOME
+
+.home {
+  height: calc(100vh - 6rem);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $quaternary-color;
+  padding: 12rem 0;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 200px 0 0 0;
+  }
+  &__title {
+    color: $primary-color;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  &__logo {
+    
+    position: relative;
+    // ANIMATION 1
+    transform: translateY(-500px);
+    animation: 1.3s titleAnim cubic-bezier(0, 0.55, 0.45, 1) forwards;
+    @keyframes titleAnim {
+      to {
+        transform: initial;
+      }
+    }
+
+   
+
+    img {
+      position: absolute;
+      top: -145px;
+      left: -240px;
+    }
+  }
+  &__subtitle {
+    opacity: 0.7;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+     // ANIMATION2
+     animation: text 5s 1;
+
+     @keyframes text {
+       0%{
+        letter-spacing: 9px;
+         //margin-bottom: -40px;
+       }
+       30%{
+         letter-spacing: 12px;
+         //margin-bottom: -40px;
+       }
+       80%{
+         letter-spacing: 9px;
+         //margin-bottom: -40px;
+       }
+     }
+  }
+
+  &__description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    padding: 30px;
+  }
+  &__card {
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+  &__socialNetwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+
+    a,
+    img {
+      padding: 10px;
+      font-size: 40px;
+      color: $primary-color;
+    }
+  }
+  &__cvIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      color: $quinary-color;
+    }
+  }
+  &__btn {
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+  }
+
+  button {
+    background-color: $quaternary-color;
+  }
+
+  button:hover {
+    color: $quinary-color;
+    background-color: $primary-color;
+  }
+}
+
+// #endregion ACCUEIL
