@@ -35,20 +35,29 @@ function About() {
             <button className={styles.home__btn}>Contactez-moi</button>
           </Link>
         </div>
-        <div className={styles.home__img}>
-          <img src={profile} alt="photo de profil" />
-        </div>
-        <div className={styles.home__socialNetwork}>
-          <a href="https://github.com/YosrTaieb" target="_blank">
-            <VscGithubAlt />
-          </a>
+        <div className={styles.home__rightSection}>
+          <div className={styles.home__img}>
+            <img src={profile} alt="photo de profil" />
+          </div>
+          <div className={styles.home__socialNetwork}>
+            <a href="https://github.com/YosrTaieb" target="_blank">
+              <VscGithubAlt />
+            </a>
 
-          <a href="https://www.linkedin.com/in/yosr-taieb-ytb/" target="_blank">
-            <CiLinkedin />
-          </a>
-          <a href={cv} target="_blank">
-            <img src={cv_icon} alt="icone de cv" />
-          </a>
+            <a
+              href="https://www.linkedin.com/in/yosr-taieb-ytb/"
+              target="_blank"
+            >
+              <CiLinkedin />
+            </a>
+            <a href={cv} target="_blank" className={styles.home__cva}>
+              <img
+                className={styles.home__cv}
+                src={cv_icon}
+                alt="icone de cv"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>

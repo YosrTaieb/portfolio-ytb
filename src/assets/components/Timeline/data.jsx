@@ -5,12 +5,8 @@ const items = [
     cardSubtitle: `Secrétariat Structurations Patrimoniales - Intérimaire`,
     cardDetailedText: [
       "Novembre 2010 - Mai 2011",
-      `Tâches principales : assistance téléphonique, gestion de l’agenda, rédaction du courrier, préparation des donations mobilières adhoc, tenue du répertoire correspondance, gestion des mails, photocopies articles de
-      presse, classement, gestion des archives, réalisation de présentations PowerPoint
-      (conférences et formations), préparation et suivi conférences et formations, gestion salle
-      de réunion/conférences (préparation café – boissons, contact avec le traiteur, gestion
-      des factures, réservation de la salle, veille à la mise en ordre ….),commande de
-      fournitures, gestion économat, mise à jour des lettres-type de donation, tenue des
+      `Tâches principales : assistance téléphonique, gestion de l’agenda, rédaction du courrier, préparation des donations mobilières adhoc, tenue du répertoire correspondance, 
+      gestion des mails, photocopies articles de presse, classement, gestion des archives, réalisation de présentations PowerPoint, préparation et suivi conférences et formations, gestion salle de réunion/conférences, commande de fournitures, mise à jour des lettres-type de donation, tenue des
       données statistiques département (rendez-vous – conférences – formations , etc.).`,
     ],
   },
@@ -26,7 +22,7 @@ const items = [
   {
     title: "2012",
     cardTitle: "Buy Way",
-    cardSubtitle: `Collaboratrice administrative`,
+    cardSubtitle: `Collaboratrice administrative - Intérimaire`,
     cardDetailedText: [
       "Décembre 2011 - Février 2012",
       `Tâches principales : ouverture du courrier, dispatching des différents contrats reçus de la part des magasins, octroi de crédit sur base de contrat , mise à jour des données clients dans la base de données , atteinte des objectifs quotidiens et mensuels : individuel et par équipe.`,

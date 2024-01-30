@@ -1,8 +1,9 @@
 .container {
   padding: 0 1.5rem;
-  margin-inline: auto;
-  bottom: 0;
-  left: 0;
+  margin-top: auto;
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
   width: 100%;
   padding: 1.5rem 0;
   background-color: $primary-color;
@@ -17,11 +18,12 @@
 }
 
 .footer {
+
   &__socialNetwork{
     a {
+      color: $quinary-color;
       padding: 0 5px;
       font-size: 20px;
-      // color: $quinary-color;
       :hover{
         color: $tertiary-color;
       }

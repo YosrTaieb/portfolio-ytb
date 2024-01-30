@@ -22,7 +22,8 @@
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.21.1",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "use-location-state": "^3.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

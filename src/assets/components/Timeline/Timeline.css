@@ -1,4 +1,4 @@
-.hHPwLT{
+.TimelineNavButton-sc-1apb8f9-2 {
   background: #303030 !important;
 }
 
@@ -11,9 +11,10 @@
   background: #303030 !important;
 } 
 
-.JEmHy:not(.using-icon).active {
-  border: 3px solid #303030 !important;
-  background-color: #cdbab1 !important;
+.timeline-circle.active{
+  border: 3px solid #cdbab1 !important;
+  background: white !important;
+
 }
 
 .my-card{
@@ -30,7 +31,6 @@
 .my-card-subtitle{
   color: #303030 !important;
   opacity: 0.7;
-
 }
 
 .my-card-text{
@@ -38,11 +38,25 @@
   margin: 0 0 0 2px !important;
 }
 
+.my-card-text:nth-child(1){
+  font-weight: bold;
+}
+
 .timelineContent p{
   color: #fff;
 
 }
 
-.ggYteh{
+.Outline-sc-cif21b-3 {
   background-color: #303030 !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .TimelineContentContainer-sc-18iuiou-5 {
+    min-width: 0px !important;
+    max-height: 150px !important;
+  }
+
 }

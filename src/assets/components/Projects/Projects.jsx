@@ -2,13 +2,19 @@ import styles from "./Projects.module.scss";
 import mkm from "../../img/png/mkm.png";
 import gk from "../../img/png/gk.png";
 import gjt from "../../img/png/gjt.png";
+import booki from "../../img/png/booki.png";
+import ohmyfood from "../../img/png/ohmyfood.png";
+
+
 
 function Projects() {
   return (
     <section className={styles.projects} id="Projets">
       <div className={styles.projects_description}>
-      <h2 className={styles.projects_title}>Mes projets</h2>
-      <p className={styles.projects_subtitle}>Parcourez mes réalisations accomplies en Wordpress :</p>
+        <h2 className={styles.projects_title}>Mes projets</h2>
+        <p className={styles.projects_subtitle}>
+          Parcourez mes réalisations accomplies en Wordpress :
+        </p>
       </div>
       <div className={styles.projects_container}>
         <div className={styles.item}>
@@ -106,16 +112,18 @@ function Projects() {
         </div>
       </div>
       <div className={styles.projects_description}>
-      <p className={styles.projects_subtitle}>Parcourez mes projets accomplies en HTML / CSS / JS :</p>
+        <p className={styles.projects_subtitle}>
+          Parcourez mes projets sur Github accomplies en HTML / CSS / JS :
+        </p>
       </div>
-      {/* <div className={styles.projects_container}>
+      <div className={styles.projects_container}>
         <div className={styles.item}>
           <div className={styles.team_data_img}>
-            <a href="https://mkmcleaning.be" target="_blank">
+            <a href="https://github.com/YosrTaieb/booki" target="_blank">
               <div className={styles.single_work}>
                 <img
-                  src={mkm}
-                  alt="MKM Cleaning"
+                  src={booki}
+                  alt="Booki"
                   className={styles.img_responsive}
                   data-no-retina
                 />
@@ -133,7 +141,7 @@ function Projects() {
                     <span
                       className={`${styles.cases_line} ${styles.bottom_left}`}
                     ></span>
-                    <h5>MKM Cleaning</h5>
+                    <h5>Booki</h5>
                   </div>
                 </div>
               </div>
@@ -142,11 +150,11 @@ function Projects() {
         </div>
         <div className={styles.item}>
           <div className={styles.team_data_img}>
-            <a href="https://gk-yourpartner.be" target="_blank">
+            <a href="https://github.com/YosrTaieb/Oh-My-Food" target="_blank">
               <div className={styles.single_work}>
                 <img
-                  src={gk}
-                  alt="GK Your Partner"
+                  src={ohmyfood}
+                  alt="Oh My Food"
                   className={styles.img_responsive}
                   data-no-retina
                 />
@@ -164,14 +172,14 @@ function Projects() {
                     <span
                       className={`${styles.cases_line} ${styles.bottom_left}`}
                     ></span>
-                    <h6>GK Your Partner</h6>
+                    <h6>Oh My Food</h6>
                   </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-        <div className={styles.item}>
+        {/* <div className={styles.item}>
           <div className={styles.team_data_img}>
             <a href="https://grenierjanetony.be" target="_blank">
               <div className={styles.single_work}>
@@ -201,8 +209,9 @@ function Projects() {
               </div>
             </a>
           </div>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
+      
     </section>
   );
 }

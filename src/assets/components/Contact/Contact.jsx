@@ -3,6 +3,7 @@ import { CiPhone } from "react-icons/ci";
 // import { IoMailOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
+import Footer from "../Footer/Footer";
 
 function Contact() {
   return (
@@ -42,7 +43,9 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </section>
+    
   );
 }
 

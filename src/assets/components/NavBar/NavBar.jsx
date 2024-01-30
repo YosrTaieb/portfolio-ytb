@@ -1,13 +1,11 @@
-import { useState, useEffect } from "react";
-import styles from "./Navbar.module.scss";
+import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import styles from "./NavBar.module.scss";
 import initiales from "../../img/svg/YT-bold.svg";
 import { sectionIds } from "./sectionIds";
-import { Link } from "react-router-dom";
 
-function NavBar() {
-  // state to track the active link and scroll state
-  const [activeLink, setActiveLink] = useState("about");
-  const [isScrolled, setIsScrolled] = useState(false);
+const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
 
   // Function to smoothly scroll to a section by its ID
   const scrollToSection = (sectionId) => {
@@ -22,59 +20,32 @@ function NavBar() {
     }
   };
 
-  // Function to determine the active section while scrolling
-  const determineActionSection = () => {
-    for (let i = sectionIds.length - 1; i >= 0; i--) {
-      const section = document.getElementById(sectionIds[i]);
-      if (section) {
-        const rect = section.getBoundingClientRect();
-        if (rect.top <= 120 && rect.bottom >= 120) {
-          // Set the active link based on the section ID
-          setActiveLink(sectionIds[i]);
-          break;
-        }
-      }
-    }
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-      // Call the function to determine the active section while scrolling
-      determineActionSection();
-    };
-    window.addEventListener("scroll", handleScroll);
-    // Remove the scroll event listener when the components unmounts
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
-     <nav className={isScrolled ? styles.scrolled : ""}>
-      <div className={styles.container}>
-        <div className={styles.row}>
-          <div className={styles.logo}><img src={initiales} alt="" /></div>
-          <ul className={styles.menu}>
-            {sectionIds.map((sectionId, i) => (
-              <li key={i} onClick={() => scrollToSection(sectionId)}>
-                <Link
-                  to="/"
-                  className={activeLink === sectionId ? styles.active : ""}
-                >
-                  {sectionId}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <nav>
+      <Link to="/">
+        <img src={initiales} alt="logo" />
+      </Link>
+      <div className={styles.menu} onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      <ul className={menuOpen ? styles.open : ""}>
+        {sectionIds.map((sectionId, i) => (
+          <li key={i} onClick={() => scrollToSection(sectionId)}>
+            <NavLink
+              to= {`/${sectionId}`} 
+              style={({ isActive }) => ({
+                color: isActive ? "#303030" : "",
+              })}
+            >
+              {sectionId}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
-}
+};
 
 export default NavBar;

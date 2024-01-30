@@ -27,7 +27,6 @@ function Timeline() {
             cardSubtitle: "1rem",
             cardText: "1rem",
           }}
-         
           classNames={{
             card: "my-card",
             cardMedia: "my-card-media",
@@ -37,7 +36,6 @@ function Timeline() {
             controls: "my-controls",
             title: "my-title",
           }}
-          
         />
       </div>
     </section>
