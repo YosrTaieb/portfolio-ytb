@@ -20,7 +20,7 @@ function Timeline() {
           mode="HORIZONTAL"
           cardWidth={750}
           cardHeight={150}
-          contentDetailsHeight={250}
+          contentDetailsHeight={150}
           fontSizes={{
             title: "1.5rem",
             cardTitle: "1.4rem",

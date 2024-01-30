@@ -6,7 +6,7 @@
   justify-content: center;
   &_description {
     align-self: flex-start;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   &_title {
        color: $primary-color;
@@ -28,6 +28,7 @@
   .timeline {
     height: auto;
     // margin-top: 50px;
+    // margin-bottom: 50px;
     &_title{
       padding: 20px;
     }

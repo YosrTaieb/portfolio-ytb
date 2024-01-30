@@ -12,6 +12,7 @@
   background-color: $quaternary-color;
 
   &__container {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +157,7 @@
       flex-direction: column-reverse;
     }
     &__logo {
-      min-width: 400px;
+      min-width: 360px;
 
       img {
         width: 100%;

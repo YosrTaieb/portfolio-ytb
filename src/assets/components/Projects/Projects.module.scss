@@ -302,9 +302,7 @@
 }
 
 @media (max-width: 850px) {
-  // .index_info {
-  //   font-size: 16px;
-  // }
+ 
   .slider {
     max-width: 400px;
   }
@@ -325,6 +323,8 @@
 
 @media screen and (max-width: 768px) {
   .projects{
+    height: auto;
+
     &_title{
       padding: 20px;
     }
