@@ -51,12 +51,10 @@
   background-color: #303030 !important;
 }
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .TimelineContentContainer-sc-18iuiou-5 {
     min-width: 0px !important;
-    max-height: 150px !important;
+    /* max-height: 150px !important; */
   }
 
 }

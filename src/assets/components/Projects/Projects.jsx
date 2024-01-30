@@ -113,7 +113,7 @@ function Projects() {
       </div>
       <div className={styles.projects_description}>
         <p className={styles.projects_subtitle}>
-          Parcourez mes projets sur Github accomplies en HTML / CSS / JS :
+          Parcourez mes projets sur Github accomplies en HTML / CSS / SASS :
         </p>
       </div>
       <div className={styles.projects_container}>

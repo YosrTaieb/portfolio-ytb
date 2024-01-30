@@ -6,16 +6,35 @@
   justify-content: center;
   &_description {
     align-self: flex-start;
-    padding: 100px;
+    margin-bottom: 100px;
   }
   &_title {
-    color: $primary-color;
+       color: $primary-color;
     font-size: 3.25rem;
     font-weight: 500;
+    padding: 0 0 0 100px;
+    margin-bottom: 20px;
   }
   &_details {
     font-size: 1.2rem;
     color: $secondary-color;
+    padding: 0 0 0 100px;
+    margin-bottom: 20px;
+    // padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+    height: auto;
+    // margin-top: 50px;
+    &_title{
+      padding: 20px;
+    }
+  
+    &_details{
+      padding: 0 20px;
+    }
   }
 }
 

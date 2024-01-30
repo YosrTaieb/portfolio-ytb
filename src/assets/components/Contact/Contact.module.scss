@@ -10,16 +10,17 @@
   flex-direction: column;
   background-color: $quinary-color;
 
-  &_description{
+  &_description {
     text-align: center;
-    max-width: 50%;
+    max-width: 100%;
+    width: 50%;
   }
 
   &_title {
     color: $primary-color;
-    font-size: 3.25rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 15px;
   }
 
   &_details {
@@ -28,38 +29,47 @@
   }
 
   &_container {
-    max-width: 868px;
+    width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
-    gap: 40px;
     flex-wrap: wrap;
     background-color: $quinary-color;
+    gap: 20px;
   }
+
   &_card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 200px;
-    padding: 30px;
+    width: 100%;
+    max-width: 250px; 
+    max-height: 500px;
+    height: auto;
     background-color: $secondary-color;
     color: $quinary-color;
     border-radius: 15px;
-    a{
+    padding: 30px;
+    a {
       color: $quinary-color;
+      text-decoration: none;
     }
   }
   &_icon {
-    font-size: 5rem;
-    padding: 0 0 20px 0;
+    font-size: 3rem; 
+    padding-bottom: 10px;
   }
   &_info {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
-
+@media screen and (max-width: 768px) {
+  .contact {
+    height: auto;
+    margin-top: 50px;
+  }
+}
 
 // #endregion Contact

@@ -5,29 +5,34 @@
   justify-content: center;
   background-color: $quaternary-color;
   min-height: 100vh;
+
+  
   &_description{
     align-self: flex-start;
   }
+
   &_title{
     color: $primary-color;
     font-size: 3.25rem;
     font-weight: 500;
-    padding: 100px 0 0px 100px;
-    // margin-bottom: 20px;
+    padding: 0 0 0 100px;
+    margin-bottom: 20px;
   }
+
   &_subtitle{
     font-size: 1.2rem;
     color: $secondary-color;
-    padding: 0 100px;
+    padding: 0 0 0 100px;
     margin-bottom: 20px;
-    // margin-bottom: 20px;
-
+    // padding: 0 20px;
   }
+
   &_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+   // gap: 40px;
+    gap: 20px;
   }
 }
 
@@ -63,7 +68,7 @@
 }
 
 .single_work {
-  margin-bottom: 30px;
+  margin: 0 15px 30px;
   overflow: hidden;
   position: relative;
   transition: all .3s ease 0s;
@@ -192,13 +197,15 @@
 }
 
 .item{
-  width: 400px;
+  //width: 400px;
   // height: 300px;
   // display: flex;
   // align-items: center;
   // flex-direction: column;
+  width: 100%; // Utilisez la largeur complète sur les petits écrans
 
 }
+
 
 .circle{
   position: relative;
@@ -313,5 +320,36 @@
   }
   .navigation_btn img {
     width: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects{
+    &_title{
+      padding: 20px;
+    }
+  
+    &_subtitle{
+      padding: 0 20px;
+    }
+  }
+}
+
+
+@media (min-width: 600px) {
+  .item {
+    width: calc(50% - 20px); // Divisez en deux colonnes sur les écrans plus larges
+  }
+}
+
+@media (min-width: 768px) {
+  .item {
+    width: calc(33.3333% - 20px); // Divisez en trois colonnes sur les écrans encore plus larges
+  }
+}
+
+@media (min-width: 1200px) {
+  .item {
+    width: calc(25% - 20px); // Divisez en quatre colonnes sur les écrans très larges
   }
 }

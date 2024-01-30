@@ -7,7 +7,7 @@ import Contact from '../Contact/Contact';
 function Home() {
   return (
     <>
-    <About/>
+    <About/>         
     <Experiences />
     <Projects/>
     <Contact/>
