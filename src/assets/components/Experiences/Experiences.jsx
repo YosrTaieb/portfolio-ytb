@@ -4,7 +4,7 @@ import Timeline from "../Timeline/Timeline"
 
 function Experiences() {
   return (
-    <section className={styles.experiences} id="Expériences">
+    <section className={styles.experiences}>
       <Timeline />
     </section>
   )

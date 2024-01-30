@@ -1,12 +1,11 @@
 import styles from "./Timeline.module.scss";
 import "../Timeline/Timeline.css";
-
 import { Chrono } from "react-chrono";
 import data from "./data";
 
 function Timeline() {
   return (
-    <section className={styles.timeline}>
+    <section className={styles.timeline} id="Expériences">
       <div className={styles.timeline_description}>
         <h2 className={styles.timeline_title}>Mon parcours professionnel</h2>
         <p className={styles.timeline_details}>
