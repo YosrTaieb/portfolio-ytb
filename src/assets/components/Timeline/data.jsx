@@ -5,9 +5,7 @@ const items = [
     cardSubtitle: `Secrétariat Structurations Patrimoniales - Intérimaire`,
     cardDetailedText: [
       "Novembre 2010 - Mai 2011",
-      `Tâches principales : assistance téléphonique, gestion de l’agenda, rédaction du courrier, préparation des donations mobilières adhoc, tenue du répertoire correspondance, 
-      gestion des mails, photocopies articles de presse, classement, gestion des archives, réalisation de présentations PowerPoint, préparation et suivi conférences et formations, gestion salle de réunion/conférences, commande de fournitures, mise à jour des lettres-type de donation, tenue des
-      données statistiques département (rendez-vous – conférences – formations , etc.).`,
+      `Assistance téléphonique, gestion de l’agenda, rédaction du courrier, préparation des donations mobilières adhoc, tenue du répertoire correspondance, gestion des mails, photocopies articles de presse, classement, gestion des archives, réalisation de présentations PowerPoint, préparation et suivi conférences et formations, gestion salle de réunion/conférences, commande de fournitures, mise à jour des lettres-type de donation, tenue des données statistiques département.`,
     ],
   },
   {
@@ -16,7 +14,7 @@ const items = [
     cardSubtitle: `Secrétaire responsable du Conseil Francophone & Germanophone de l’Ordre des Architectes - Intérimaire`,
     cardDetailedText: [
       "Mai 2011 - Août 2011",
-      `Tâches principales : gestion des appels téléphonique, gestion du courrier entrant/sortant, rédaction de mails, organisation de réunions, prise de note, rédaction de PV de réunion, classement , photocopies, gestion de plusieurs agendas (5) , mise à jour de base de données (Excel).`,
+      `Gestion des appels téléphoniques, courrier entrant/sortant, rédaction de mails, organisation de réunions, prise de notes, rédaction de PV de réunion, classement, photocopies, gestion de plusieurs agendas, mise à jour de base de données.`,
     ],
   },
   {
@@ -25,7 +23,8 @@ const items = [
     cardSubtitle: `Collaboratrice administrative - Intérimaire`,
     cardDetailedText: [
       "Décembre 2011 - Février 2012",
-      `Tâches principales : ouverture du courrier, dispatching des différents contrats reçus de la part des magasins, octroi de crédit sur base de contrat , mise à jour des données clients dans la base de données , atteinte des objectifs quotidiens et mensuels : individuel et par équipe.`,
+      `Traitement
+      du courrier entrant, distribution des contrats des magasins, attribution de crédits en fonction des contrats, mise à jour des informations des clients, réalisation des objectifs quotidiens et mensuels.`,
     ],
   },
   {
@@ -34,11 +33,7 @@ const items = [
     cardSubtitle: `Assistante de direction - Ressources Humaines`,
     cardDetailedText: [
       "Juin 2012 - Juin 2013",
-      `Tâches principales : Gestion de l’agenda ( prises de rendez-vous, coordination,
-        planification ), Organisation de voyages (réservation de vols, hôtels, démarches
-        administratives, visas, etc), filtrage des appels téléphoniques, tâches administratives (notes de
-        frais, factures), support à l’organisation de réunions/événements, préparation de
-        présentations Powerpoint & Excel.`,
+      `Gestion de l’agenda, organisation de voyages, filtrage des appels téléphoniques, tâches administratives, support à l’organisation de réunions/événements, préparation de présentations PowerPoint & Excel.`,
     ],
   },
   {
@@ -47,7 +42,8 @@ const items = [
     cardSubtitle: `Assistante de direction - Service Juridique`,
     cardDetailedText: [
       "Juin 2013 - Juin 2021",
-      `Tâches principales : gestion de l'emploi du temps de 4 directeurs, organisation de réunions internes et externes, préparation de rapports Excel complexes et de présentations PowerPoint, gestion proactive de tous les arrangements administratifs pour les réunions du comité de gestion du LT, organisation de formations et de team buiding, gestion des appels téléphoniques, organisation des voyages, mise à jour de l'intranet juridique, coordinatrice informatique de l'équipe.`,
+      `Optimisation des plannings, planification et coordination des réunions, élaboration de rapports et de présentations, gestion proactive des tâches administratives, coordination des formations et des événements de renforcement d'équipe, gestion des appels téléphoniques,
+      coordination des voyages, mise à jour de l'intranet juridique, coordination informatique de l'équipe.`,
     ],
   },
   {
@@ -56,7 +52,7 @@ const items = [
     cardSubtitle: `Formation qualifiante`,
     cardDetailedText: [
       "Septembre 2021 - Février 2022",
-      `Formation Intensive de développeur Web Full-Stack Javascript (React, Node.js). `,
+      `Formation intensive de développeur Web Full-Stack JavaScript (React, Node.js).`,
     ],
   },
   {
@@ -65,7 +61,7 @@ const items = [
     cardSubtitle: `Stage`,
     cardDetailedText: [
       "Juin 2022 - Décembre 2022",
-      `Tâches principales : codage HTML/CSS, responsive design, programmation JavaScript, familiarité avec les frameworks (Typescript, NextJs), optimisation du code pour des temps de chargement plus rapide et de meilleures performances.`,
+      `Codage HTML/CSS, responsive design, programmation JavaScript, familiarité avec les frameworks (Typescript, NextJs), optimisation du code pour des temps de chargement plus rapides et de meilleures performances.`,
     ],
   },
   {
@@ -74,7 +70,7 @@ const items = [
     cardSubtitle: `Formation qualifiante - Frontend developper`,
     cardDetailedText: [
       "Mars 2023 - Mai 2024",
-      `Formation sur les bases du développement web avec HTML5, CSS3, Tailwind, SASS, respectant les normes du W3C. Elle inclut JavaScript pour l'interactivité, React pour les interfaces réutilisables, Node.js, Express, NoSQL pour le côté serveur, et explore PHP pour le backend, le theming avancé, et l'intégration réactive avec React dans le cadre de WordPress.`,
+      `Formation sur les bases du développement web (HTML5, CSS3, Tailwind, SASS, JavaScript, React, Node.js, Express, NoSQL, PHP). Exploration du theming avancé et de l'intégration réactive avec React dans le cadre de WordPress.`,
     ],
   },
   // {

@@ -17,7 +17,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap-reverse;
-  
   }
   &__title {
     color: $primary-color;
@@ -72,7 +71,7 @@
     padding: 35px;
   }
   &__card {
-    width: 100%; 
+    width: 100%;
     max-width: 600px;
     padding: 30px;
     display: flex;
@@ -81,7 +80,7 @@
     justify-content: center;
   }
   &__img {
-    width: 100%; 
+    width: 100%;
     max-width: 300px;
     img {
       width: 100%;
@@ -93,8 +92,7 @@
     justify-content: center;
     margin: 20px 0;
   }
- 
-  
+
   &__socialNetwork {
     display: flex;
     flex-direction: column;
@@ -108,7 +106,6 @@
       color: $primary-color;
     }
   }
-
 
   &__cvIcon {
     width: 40px;
@@ -166,7 +163,7 @@
         left: -20px;
       }
     }
-   
+
     &__card {
       width: 100%;
     }
