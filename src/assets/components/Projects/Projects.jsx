@@ -1,9 +1,9 @@
 import styles from "./Projects.module.scss";
 import mkm from "../../img/png/mkm.png";
-import gk from "../../img/png/gk.png";
 import gjt from "../../img/png/gjt.png";
 import booki from "../../img/png/booki.png";
 import ohmyfood from "../../img/png/ohmyfood.png";
+import gkyp from "../../img/png/gk-your-partner.png";
 
 
 
@@ -53,7 +53,7 @@ function Projects() {
             <a href="https://gk-yourpartner.be" target="_blank">
               <div className={styles.single_work}>
                 <img
-                  src={gk}
+                  src={gkyp}
                   alt="GK Your Partner"
                   className={styles.img_responsive}
                   data-no-retina
@@ -150,7 +150,7 @@ function Projects() {
         </div>
         <div className={styles.item}>
           <div className={styles.team_data_img}>
-            <a href="https://github.com/YosrTaieb/Oh-My-Food" target="_blank">
+            <a href="https://yosr.interface3.be/index.html" target="_blank">
               <div className={styles.single_work}>
                 <img
                   src={ohmyfood}
